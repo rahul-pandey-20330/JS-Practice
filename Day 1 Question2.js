@@ -1,5 +1,5 @@
 //Write A Program to Calculate Area Of Reactangle And Parameter Of Reactangle
-const { log } = require("console");
+
 let readline = require("readline");
 let rl = readline.createInterface({
     input : process.stdin,
