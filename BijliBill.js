@@ -11,7 +11,7 @@ const rl = readline.createInterface({
 });
 rl.question("Enter Unit Of Electricity : ",(unit)=>{
     let Amount = 0;
-    if(unit > 400){
+    if(unit > 400){ // assume unit = 700
         Amount = (unit - 400) * 13;
         unit = 400;
     }
